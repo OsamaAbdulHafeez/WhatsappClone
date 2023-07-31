@@ -1,0 +1,586 @@
+/* media Query */
+
+@media only screen and (max-width:1200px) {
+    nav {
+        display: flex;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    nav ul{
+        background: white;
+        display: block;
+        width: 100%;
+        position: absolute;
+        top: 75px;
+        right: 0;
+        z-index: 2;
+        
+    }
+    .features ul li{
+        display: block;
+        margin-top: 30px;
+        margin-bottom: 10px;
+        font-size: 25px;
+        border-bottom: 1px solid black; 
+    }
+    .download {
+        display: block;
+
+    }
+    #toggle{
+        overflow: hidden;
+        transition: 0.9s
+    }
+    .whatsapp_web {
+        display: none;
+    }
+    #toggle{
+        overflow: hidden;
+    }
+    
+
+    .logo img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    .burger {
+        display: block;
+        width: 40px;
+    }
+
+    .para1 {
+        font-size: 20px;
+        text-align: center;
+    }
+    .connecttextP1 {
+        font-size: 60px;
+        width: 60%;
+    }
+    .footer{
+        padding-top: 100px;
+    }
+    .footermain{
+        display: block;
+        padding-left: 20px;
+    }
+    .footerlogo{
+       margin-bottom: 50px;
+    }
+    .footer_button{
+        display: none;
+    }
+    .footer-line{
+        width: 100%;
+    }
+    #responsive-button,#fontlinks{
+        display: block;
+    }
+    #icon-hide{
+        display: none;
+    }
+    .footer-description{
+        
+        padding-left: 50px;
+    }
+    .footer-text2{
+        margin-right: 170px;
+    }
+    .main-image{
+        background-size: cover;
+    }
+    
+}
+@media only screen and (max-width:1050px){
+    .pebblebeachtext {
+        /* width: 50vw; */
+        position: relative;
+        margin-left: 250px;
+        align-self: center;
+    }
+}
+@media only screen and (max-width:1000px) {
+    /* .features ul li{
+        margin-top: 20px;
+        font-size: 20px;
+    } */
+    nav ul{
+        background: white;
+        display: block;
+        width: 100%;
+        position: absolute;
+        top: 75px;
+        right: 0;
+        z-index: 2;
+        
+    }
+    .features ul li{
+        display: block;
+        margin-top: 30px;
+        margin-bottom: 10px;
+        font-size: 25px;
+        border-bottom: 1px solid black; 
+    }
+    
+    .main-image{
+        background-size: cover;
+        height: 400px;
+        
+        flex-direction: column-reverse;
+    }
+    .text-images img{
+        width: 100%;
+        top: 80px;
+        left: 30px;
+    }
+    
+    .image-text{
+        top: 70px;
+        left: 30px;
+        margin-top: 50px;
+    }
+    .image-text p{
+        font-size: 18px;
+        line-height: 1.5;
+        margin-bottom: 40px;
+        width: 100%;
+    }
+    #one{
+        display: none;
+    }
+    .image-text h1{
+        font-size: 35px;
+    }
+    .text-images{
+        position: static;
+    }
+    .imagedp1 {
+        display: none;
+    }
+
+    .image16 {
+        display: block;
+    }
+
+    .imagedp2 {
+        display: none;
+    }
+
+    .image17 {
+        display: block;
+    }
+
+    /* section */
+    .videocall {
+        display: block;
+    }
+
+    .para2 {
+        padding-left: 20px;
+
+    }
+
+    .pa {
+        width: 98%;
+        font-size: 40px;
+    }
+
+    .pa1 {
+        font-size: 18px;
+        width: 110%;
+        line-height: 1.5;
+    }
+
+    .para2img img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* sectionend */
+    /* section*/
+    .anika {
+        flex-direction: column-reverse;
+    }
+
+    .anikatext {
+        display: block;
+        margin-left: 30px;
+        margin-right: auto;
+        position: static;
+    }
+
+    .anikaP1 {
+        width: 70%;
+    }
+
+    .anikaimg {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        position: static;
+        margin-top: 50px;
+    }
+
+    .anikaimg img {
+        width: 100%;
+    }
+
+    /* section end */
+    /* section */
+    .bestfreindgroup {
+        display: block;
+        position: static;
+    }
+
+    .bestfreindtext {
+        position: static;
+        margin-left: 30px;
+        margin-top: -50px;
+    }
+
+    .bestfreindP1 {
+        font-size: 30px;
+    }
+
+    .bestfreindP2 {
+        font-size: 20px;
+        width: 180%;
+        line-height: 1.5;
+    }
+
+    .bestfreindimg {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        position: static;
+        background-position: center;
+        margin-top: 20px;
+
+    }
+
+    .bestfreindimg img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        top: 62px;
+        left: 10px;
+    }
+
+    /* section end */
+    /* section */
+    .pebblebeach{
+        flex-direction: column-reverse;
+        
+    }
+    .pebblebeachtext{
+        position: static;
+        display: block;
+        margin-left: 20px;
+        margin-right: auto;
+    }
+    .pebblebeachP1{
+        font-size: 35px;
+        
+    }
+    .pebblebeachP2{
+        width: 95%;
+    }
+    .pebblebeachimg{
+        position: static;
+        display: block;
+        margin-left: auto;
+        margin-right: auto; 
+    }
+    .image12{
+        position: relative;
+        top: -150px;
+    }
+    /* section end */
+    /* section */
+    .catalog{
+        display: block;
+    }
+    .catalogtext{
+        width: 100%;
+        position: static;
+        margin-left: 30px;
+    }
+    .catalogtextP1{
+        font-size: 40px;
+        width: 40%;
+    }
+    .catalogtextP2{
+        font-size: 18px;
+        line-height: 1.5;
+        width: 60%;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .catalogimg{
+        position: static;
+        width: 100%;
+    }
+    .catalogimg img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    /* section end */
+    /* section */
+    .connect{
+        display: block;
+        padding-bottom: 30px;
+    }
+    .connecttext{
+        padding-top: 30px;
+        position: static;
+        margin-left: 30px;
+    }
+    .connecttextP1 {
+        font-size: 40px;
+        
+    }
+    .whatsapp{
+        margin: 0;
+        margin-top: 30px;
+        padding-top: -20px;
+        margin-left: 30px;
+    }
+    .footer-text2{
+        margin-left: 0;
+    }
+    /* section end */
+}
+
+@media only screen and (max-width:770px) {
+    nav ul{
+        background: white;
+        display: block;
+        width: 100%;
+        position: absolute;
+        top: 75px;
+        right: 0;
+        z-index: 2;
+        
+    }
+    .features ul li{
+        display: block;
+        margin-top: 30px;
+        margin-bottom: 10px;
+        
+        border-bottom: 1px solid black; 
+    }
+    .main-image{
+        background-position: center center;
+          
+    }
+    
+    .text-images img{
+        /* width: 130%; */
+        top: 140px;
+        left: 30px;
+        display: none;
+        
+    }
+    .image16 {
+        display: none;
+    }
+
+    .image18 {
+        display: block;
+    }
+
+    .image17 {
+        display: none;
+    }
+
+    .image16 {
+        display: none;
+    }
+
+    .image19 {
+        display: block;
+    }
+
+    /* section*/
+    .para2 {
+        padding-left: 20px;
+
+    }
+
+    .pa {
+        width: 190%;
+        font-size: 40px;
+    }
+
+    .pa1 {
+        font-size: 18px;
+        width: 190%;
+        line-height: 1.5;
+    }
+
+    /* sectionend */
+    /* section */
+    .anikaP1 {
+        width: 95%;
+    }
+
+    /* section end */
+    /* section */
+    .pebblebeachimg{
+        
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    /* section end */
+    .pebblebeach{
+        margin-top: 20px;
+    }
+    .whatsapp{
+        width: 40%;
+    }
+    
+    .footer-text2{
+        margin-left: 0;
+    }
+}
+
+@media only screen and (max-width:650px) {
+    .text-images img{
+        width: 150%;
+        top: 140px;
+        left: 30px;
+    }
+    /* section */
+    .bestfreindP1 {
+        width: 150%;
+    }
+
+    /* section end */
+}
+@media only screen and (max-width:600px) {
+    /* .features ul li{
+        margin-top: 8px;
+        font-size: 14px;
+    } */
+    .main-image{
+        top: 200px;
+        background-position: center center;
+        
+    }
+    .pebblebeachimg{
+        position: static;
+        display: block;
+        margin-left: auto;
+        margin-right: auto; 
+    }
+    .pebblebeachP1{
+        width: 100%;
+    }
+    .whatsappP1{
+        font-size: 25px;
+    }
+    .whatsappP2{
+        font-size: 16px;
+    }
+    .links{
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-top: 30px;
+    }
+    .footer-description{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: fit-content;
+        padding: 0;
+        margin-top: 30px;
+
+    }
+    .footer-text1,.footer-text2,#icon-hide{
+        margin-bottom: 20px;
+        width: fit-content;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media only screen and (max-width:530px){
+    #fontlinks i{
+        margin-bottom: 20px;
+    }
+    #responsive-button{
+        align-self: center;
+    }
+}
+@media only screen and (max-width:450px) {
+
+    /* section */
+    .bestfreindP1 {
+        width: 150%;
+    }
+    .bestfreindimg img {
+        width: 100%;
+    }
+    .whatsapp{
+        padding-left: 30px;
+        padding-right: 30px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .whatsappP1{
+        width: 100%;
+        
+    }
+    /* section end */
+}
+@media only screen and (max-width:400px) {
+    .bestfreindimg img {
+        width: 100%;
+    }
+    .image12{
+        width: 90%;
+        left: 50px;
+        
+    }
+}
+@media only screen and (max-width:350px) {
+    .bestfreindimg img {
+        width: 100%;
+    }
+    .pebblebeachimg{
+        position: static;
+        display: block;
+        margin-left: auto;
+        margin-right: auto; 
+    }
+    
+    .image13{
+        width: 100%;
+    }
+    
+}
+@media only screen and (max-width:300px) {
+    .para2img img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+    .bestfreindimg img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .catalogimg img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+}
